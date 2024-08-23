@@ -39,12 +39,14 @@ body {
   
   .post-title {
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: #333;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .post-author, .post-date {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
     color: #555;

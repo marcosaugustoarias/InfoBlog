@@ -10,6 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<PostList />} />
+        <Route path="/infoblog" element={<PostList />} />
         <Route path="/post/:id" element={<PostDetails />} />
         <Route path="/users" element={<GoogleLogin><UserList /></GoogleLogin>} />
       </Routes>

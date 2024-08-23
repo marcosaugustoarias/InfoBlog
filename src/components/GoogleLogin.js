@@ -7,7 +7,7 @@ function GoogleLoginWrapper({ children }) {
   };
 
   return (
-    <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
+    <GoogleOAuthProvider clientId="#">
       <GoogleLogin
         onSuccess={handleSuccess}
         onError={() => console.log('Login Failed')}
